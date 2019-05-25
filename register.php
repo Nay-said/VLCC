@@ -85,7 +85,7 @@
 							<!-- Main Nav Menu -->
 							<div class="ml-auto">
 								<ul class="nav">
-									<li><a href="home.php"><u>Home</u><i></i></a></li>
+									<li><a href="index.php"><u>Home</u><i></i></a></li>
 									<li><a href="contact.php">Contact Us<i></i></a></li>
 									<li><a href="about.php">About Us<i></i></a></li>
 								</ul>
@@ -284,11 +284,11 @@
         if(GetRequest()['register']){
 			$("#register_from").validate();
 			alert("Thank you! Registration Success! Please Log in now.");
-			location.href = "home.php"
+			location.href = "index.php"
         }
         if(GetRequest()['update']){
             alert("Profile Update Success!");
-            location.href = "home.php";
+            location.href = "index.php";
         }
     });
     </script>

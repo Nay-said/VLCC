@@ -109,7 +109,7 @@
 							<!-- Main Nav Menu -->
 							<div class="ml-auto">
 								<ul class="nav">
-									<li><a href="home.php"><u>Home</u><i></i></a></li>
+									<li><a href="index.php"><u>Home</u><i></i></a></li>
 									<li><a href="contact.php">Contact Us<i></i></a></li>
 									<li><a href="about.php">About Us<i></i></a></li>
 								</ul>

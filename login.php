@@ -25,17 +25,17 @@
         if($row["password"] == $password){
             $_SESSION['user']=$username;
             session_write_close();
-            header('location: home.php?login=true');
+            header('location: index.php?login=true');
             exit;
         }
         else{
-            header('Location: home.php?login=false');
+            header('Location: index.php?login=false');
             die("Error 2".mysqli_error($conn));
             exit;
         }
     }    
     else{
-        header('Location: home.php?login=false');
+        header('Location: index.php?login=false');
         die("Error 3".mysqli_error($conn));
         exit;
     }
